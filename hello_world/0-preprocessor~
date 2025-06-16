@@ -1,0 +1,2 @@
+#!/bin/bash
+ggc -Wall -Werror -Wextra -pedantic -std=gnu89 $CFILE -E > c
