@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main- I look this later
+ * main - I look this later
  *
- * return= Always return 0
+ * Return: Always return 0
  *
  **/
 
@@ -19,11 +19,11 @@ int main(void)
 	last_digit = n % 10;
 	printf("last_digit of %d is %d", n, last_digit);
 
-	if (n > 5)
+	if (last_digit > 5)
 	{
 		printf(" and is greater than 5\n");
 	}
-	else if (n == 0)
+	else if (last_digit == 0)
 	{
 		printf(" and is 0\n");
 	}
