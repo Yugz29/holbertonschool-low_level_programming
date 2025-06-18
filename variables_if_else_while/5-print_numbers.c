@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+/**
+ * main - prints all single digit numbers of base 10
+ *
+ * Return: always return 0
+ *
+ **/
+
+int main(void)
+{
+	char number = '0';
+
+	while (number <= '9')
+	{
+		putchar(number);
+		number++;
+	}
+	putchar('\n');
+
+	return (0);
+
+}
