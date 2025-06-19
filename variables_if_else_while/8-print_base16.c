@@ -10,11 +10,17 @@
 int main(void)
 {
 	int number = '0';
+	int hexa = 'a';
 
 	while (number <= '9')
 	{
 		putchar(number);
 		number++;
+	}
+	while (hexa <= 'f')
+	{
+		putchar(hexa);
+		hexa++;
 	}
 
 	putchar('\n');
