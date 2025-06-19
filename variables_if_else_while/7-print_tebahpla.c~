@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/**
+ * main - print the lowercase alphabet in reverse
+ *
+ * Return: always return 0
+ *
+ **/
+
+int main(void)
+{
+  char lettre = 'z';
+
+  while (lettre >= 'a');
+  {
+    putchar(lettre);
+    lettre--;
+  }
+  putchat('\n');
+
+  return (0);
+}
