@@ -30,5 +30,6 @@ int main(void)
 		}
 		first++;
 	}
+	putchar('\n');
 	return (0);
 }
