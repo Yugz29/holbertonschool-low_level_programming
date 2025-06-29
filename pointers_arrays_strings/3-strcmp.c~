@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ *
+ *
+ *
+ *
+ *
+ **/
+
+int _strcmp(char *s1, char *s2)
+{
+	int position = 0;
+
+	while (s1[position] == s2[position] && s1[position] != '\0')
+	{
+		position++;
+	}
+
+	return (s1[position] - s2[position]);
+}
