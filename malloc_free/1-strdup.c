@@ -3,13 +3,10 @@
 #include <stdlib.h>
 
 /**
+ * _strdup - Returns a pointer to a newly allocated memory space
+ * @str: The string to duplicate
  *
- *
- *
- *
- *
- *
- *
+ * Return: A pointer to the duplicated string, or NULL
  **/
 
 char *_strdup(char *str)
@@ -22,7 +19,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	
+
 	while (str[len] != '\0')
 	{
 		len++;
@@ -35,7 +32,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	for (i = 0; i < len; i++)
+	for (i = 0; i <= len; i++)
 	{
 		str_bis[i] = str[i];
 	}
