@@ -22,35 +22,28 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-
 	while (s1[len1] != '\0')
 	{
 		len1++;
 	}
-
 	while (s2[len2] != '\0')
 	{
 		len2++;
 	}
-
 	fusion = malloc(len1 + len2 + 1);
-
 	if (fusion == NULL)
 	{
 		return (NULL);
 	}
-
 	for (i1 = 0; i1 <= len1 - 1; i1++)
 	{
 		fusion[i1] = s1[i1];
 	}
-
 	for (i2 = 0; i2 <= len2 - 1; i2++)
 	{
 		fusion[len1 + i2] = s2[i2];
 	}
 
 	fusion[i1 + i2] = '\0';
-	
 	return (fusion);
 }
