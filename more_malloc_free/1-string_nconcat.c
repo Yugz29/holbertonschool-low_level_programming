@@ -4,6 +4,25 @@
 #include <string.h>
 
 /**
+ * _strlen - Calculates the length of a string
+ * @s: The string
+ *
+ * Return: The length of the string
+ **/
+
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+
+	return (i);
+}
+
+/**
  * string_nconcat - Concatenates two strings with a limit on the second
  * @s1: First string
  * @s2: Second string
@@ -27,8 +46,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 	}
 
-	len1 = strlen(s1);
-	len2 = strlen(s2);
+	len1 = _strlen(s1);
+	len2 = _strlen(s2);
 
 	if (n >= len2)
 	{
