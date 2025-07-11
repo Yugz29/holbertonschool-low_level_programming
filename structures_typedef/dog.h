@@ -2,15 +2,16 @@
 #define DOG_H
 
 /**
- * struc dog - structure to class different info about dog
+ * struct dog - structure to class different info about dog
  *
- * name: name of the dog
- * age: age of the dog
- * owner: owner of the dog
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: owner of the dog
  *
  **/
 
-struct dog {
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
