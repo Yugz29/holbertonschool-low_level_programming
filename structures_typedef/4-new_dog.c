@@ -3,6 +3,15 @@
 #include <string.h>
 #include <stdlib.h>
 
+/**
+ * new_dog - creates a new dog struct
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: owner of the dog
+ *
+ * Return: pointer to the new dog, or NULL
+ **/
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *new_dog;
@@ -22,7 +31,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (new_dog->name == NULL)
 	{
-		free(new-dog);
+		free(new_dog);
 		return (NULL);
 	}
 
@@ -39,7 +48,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	strcpy(new_dog->owner, owner);
 
-	new_dog-> = age;
+	new_dog->age = age;
 
 	return (new_dog);
 }
