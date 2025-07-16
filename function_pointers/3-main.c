@@ -13,32 +13,34 @@
 
 int main(int argc, char *argv[])
 {
-int a, b, result;
-int (*operation)(int, int);
+    int a, b, result;
+    int (*operation)(int, int);
 
-if (argc != 4)
-{
-printf("Error\n");
-exit(98);
-}
-if (get_op_func(argv[2]) == NULL)
-{
-printf("Error\n");
-exit(99);
-}
-if ((strcmp(argv[2], "/") == 0 || strcmp(argv[2], "%") == 0) &&
-atoi(argv[3]) == 0)
-{
-printf("Error\n");
-exit(100);
-}
+    if (argc != 4)
+    {
+        printf("Error\n");
+        exit(98);
+    }
+    
+    if (get_op_func(argv[2]) == NULL)
+    {
+        printf("Error\n");
+        exit(99);
+    }
 
-a = atoi(argv[1]);
-b = atoi(argv[3]);
-operation = get_op_func(argv[2]);
-result = operation(a, b);
+    if ((strcmp(argv[2], "/") == 0 || strcmp(argv[2], "%") == 0) &&
+        atoi(argv[3]) == 0)
+    {
+        printf("Error\n");
+        exit(100);
+    }
 
-printf("%d\n", result);
+    a = atoi(argv[1]);
+    b = atoi(argv[3]);
+    operation = get_op_func(argv[2]);
+    result = operation(a, b);
 
-return (0);
+    printf("%d\n", result);
+
+    return (0);
 }
