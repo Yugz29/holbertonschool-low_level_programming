@@ -18,10 +18,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_list sum_numbers;
 
 	if (n == 0)
-	{
-		printf("\n")
-		return;
-	}
+	return;
 
 	va_start(sum_numbers, n);
 	result = 0;
