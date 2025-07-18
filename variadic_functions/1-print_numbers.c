@@ -14,11 +14,14 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-	unsigned int result;
+	int result;
 	va_list sum_numbers;
 
 	if (n == 0)
-	return;
+	{
+		printf("\n")
+		return;
+	}
 
 	va_start(sum_numbers, n);
 	result = 0;
