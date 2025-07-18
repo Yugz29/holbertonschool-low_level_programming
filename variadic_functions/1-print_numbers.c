@@ -14,25 +14,18 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-	int result;
-	va_list sum_numbers;
+	va_list numb;
 
-	if (n == 0)
-	return;
-
-	va_start(sum_numbers, n);
-	result = 0;
+	va_start(numb, n);
 
 	for (i = 0; i < n; i++)
 	{
-		result = va_arg(sum_numbers, int);
-		printf("%d", result);
+		printf("%d", va_arg(numb, int));
 
 		if (separator != NULL && i < n - 1)
-		{
 			printf("%s", separator);
-		}
 	}
+
+	va_end(numb);
 	printf("\n");
-	va_end(sum_numbers);
 }
