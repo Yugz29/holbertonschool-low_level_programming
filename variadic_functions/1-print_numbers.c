@@ -14,7 +14,7 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-	int result;
+	unsigned int result;
 	va_list sum_numbers;
 
 	if (n == 0)
