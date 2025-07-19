@@ -10,8 +10,8 @@
  */
 typedef struct print_type
 {
-    char type;
-    void (*print_func)(va_list args, char *separator);
+char type;
+void (*print_func)(va_list args, char *separator);
 } print_type_t;
 
 int _putchar(char c);
