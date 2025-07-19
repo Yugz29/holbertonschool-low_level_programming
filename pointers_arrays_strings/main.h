@@ -48,5 +48,6 @@ void print_chessboard(char (*a)[8]);
 int _atoi(char *s);
 char *cap_string(char *);
 char *leet(char *);
+void print_diagsums(int *a, int size);
 
 #endif
