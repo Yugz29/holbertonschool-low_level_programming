@@ -38,7 +38,7 @@ void print_float(va_list args, char *separator)
 {
 	double f = va_arg(args, double);
 
-	printf("%s%f", separator, f);
+	printf("%s%g", separator, f);
 }
 
 /**
