@@ -24,7 +24,6 @@ This repository showcases how to use function pointers for callbacks, iterators,
 | `3-calc.h`           | Header file defining the `op_t` struct and calculator prototypes |
 | `3-op_functions.c`   | Functions for addition, subtraction, multiplication, division, modulo |
 | `3-get_op_func.c`    | Selects the correct operator function using string comparison |
-| `3-main.c`           | Main file to execute the calculator logic |
 | `function_pointers.h`| Header for function pointer utility functions |
 
 ---
