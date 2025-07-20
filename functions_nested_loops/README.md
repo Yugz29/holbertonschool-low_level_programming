@@ -19,7 +19,6 @@ This repository includes multiple utility functions that cover character checks,
 
 | File                   | Description |
 |------------------------|-------------|
-| `main.c`               | Entry point, prints `_putchar` followed by a newline |
 | `0-putchar.c`          | Prints the string `_putchar` one character at a time |
 | `1-alphabet.c`         | Prints the alphabet in lowercase |
 | `2-print_alphabet_x10.c`| Prints the alphabet 10 times |
