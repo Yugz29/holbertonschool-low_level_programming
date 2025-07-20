@@ -1,4 +1,4 @@
-# 🧱 malloc_free – Dynamic Memory Allocation in C
+# Dynamic Memory Allocation in C
 
 Welcome to this C project focused on mastering dynamic memory allocation using `malloc` and proper memory management with `free`.  
 This repository contains several functions that create, manipulate, and free dynamically allocated memory, including arrays, strings, and 2D grids.
