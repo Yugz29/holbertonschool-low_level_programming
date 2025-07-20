@@ -1,4 +1,4 @@
-# 🔁 functions_nested_loops – Fundamentals of Functions & Loops in C
+# Fundamentals of Functions & Loops in C
 
 Welcome to this C project focused on building basic functions, using nested loops, and reinforcing control structures.  
 This repository includes multiple utility functions that cover character checks, printing patterns, arithmetic operations, and more.
