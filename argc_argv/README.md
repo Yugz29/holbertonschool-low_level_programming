@@ -1,4 +1,4 @@
-# 🧠 argc_argv – Command-Line Arguments in C
+# Command-Line Arguments in C
 
 Welcome to this C project exploring the use of command-line arguments.  
 This repository contains a set of simple programs that demonstrate how to work with `argc` and `argv` to handle input directly from the terminal.
