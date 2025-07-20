@@ -1,4 +1,4 @@
-# 🧩 Function Pointers – Dynamic Behavior in C
+# Function Pointers – Dynamic Behavior in C
 
 Welcome to this C project exploring **function pointers** and their powerful use cases!  
 This repository showcases how to use function pointers for callbacks, iterators, and dynamic operator dispatching.
