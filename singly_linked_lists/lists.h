@@ -3,7 +3,7 @@
 
 #include <stddef.h>
 
-// Structure
+/** Structure **/
 
 /**
  * struct list_s - singly linked list
@@ -12,7 +12,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- */
+ **/
 
 typedef struct list_s
 {
@@ -21,7 +21,7 @@ unsigned int len;
 struct list_s *next;
 } list_t;
 
-// Prototypes
+/** Prototypes **/
 
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
