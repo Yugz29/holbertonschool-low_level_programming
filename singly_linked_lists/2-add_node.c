@@ -23,16 +23,14 @@ list_t *add_node(list_t **head, const char *str)
 	new->str = strdup(str);
 
 	if (!new->str)
-	{
 		return (NULL);
-	}
-	free(new);
 
 	new->len = strlen(new->str);
 	new->next = NULL;
 	new->next = *head;
 	*head = new;
 
+	free(new);
 	return (new);
 
 }
