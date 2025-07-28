@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
+#include <stddef.h>
 
 /**
  * add_node - adds a new node to the beginning of a list_t
