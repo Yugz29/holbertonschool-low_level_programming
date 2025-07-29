@@ -6,6 +6,7 @@
 /**
  * add_dnodeint - Adds a new node to the beginning of a doubly linked list
  * @head: Double pointer to the head of the list
+ * @n: Value to be inserted into the new node
  *
  * Return: Address of the new node, or NULL if fail
  **/
