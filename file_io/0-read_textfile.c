@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include <sys/types.h>
+
 
 /**
  * read_textfile - reads a text file and prints it to the stdout
@@ -24,7 +26,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (fd == -1)
 		return (0);
 
-	buffer = malloc(sizeof(letters));
+	buffer = malloc(letters);
 
 	if (buffer == NULL)
 	{
